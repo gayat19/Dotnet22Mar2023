@@ -1,0 +1,15 @@
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\MySolution\FirstApplication\bin\Debug\net6.0\FirstApplication.exe
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\MySolution\FirstApplication\bin\Debug\net6.0\FirstApplication.deps.json
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\MySolution\FirstApplication\bin\Debug\net6.0\FirstApplication.runtimeconfig.json
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\MySolution\FirstApplication\bin\Debug\net6.0\FirstApplication.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\MySolution\FirstApplication\bin\Debug\net6.0\FirstApplication.pdb
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\MySolution\FirstApplication\obj\Debug\net6.0\FirstApplication.csproj.AssemblyReference.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\MySolution\FirstApplication\obj\Debug\net6.0\FirstApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\MySolution\FirstApplication\obj\Debug\net6.0\FirstApplication.AssemblyInfoInputs.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\MySolution\FirstApplication\obj\Debug\net6.0\FirstApplication.AssemblyInfo.cs
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\MySolution\FirstApplication\obj\Debug\net6.0\FirstApplication.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\MySolution\FirstApplication\obj\Debug\net6.0\FirstApplication.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\MySolution\FirstApplication\obj\Debug\net6.0\refint\FirstApplication.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\MySolution\FirstApplication\obj\Debug\net6.0\FirstApplication.pdb
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\MySolution\FirstApplication\obj\Debug\net6.0\FirstApplication.genruntimeconfig.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\MySolution\FirstApplication\obj\Debug\net6.0\ref\FirstApplication.dll

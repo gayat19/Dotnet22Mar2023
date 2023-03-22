@@ -1,0 +1,15 @@
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ConstructsSolution\UnderstandingConstructsApp\bin\Debug\net6.0\UnderstandingConstructsApp.exe
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ConstructsSolution\UnderstandingConstructsApp\bin\Debug\net6.0\UnderstandingConstructsApp.deps.json
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ConstructsSolution\UnderstandingConstructsApp\bin\Debug\net6.0\UnderstandingConstructsApp.runtimeconfig.json
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ConstructsSolution\UnderstandingConstructsApp\bin\Debug\net6.0\UnderstandingConstructsApp.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ConstructsSolution\UnderstandingConstructsApp\bin\Debug\net6.0\UnderstandingConstructsApp.pdb
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ConstructsSolution\UnderstandingConstructsApp\obj\Debug\net6.0\UnderstandingConstructsApp.csproj.AssemblyReference.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ConstructsSolution\UnderstandingConstructsApp\obj\Debug\net6.0\UnderstandingConstructsApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ConstructsSolution\UnderstandingConstructsApp\obj\Debug\net6.0\UnderstandingConstructsApp.AssemblyInfoInputs.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ConstructsSolution\UnderstandingConstructsApp\obj\Debug\net6.0\UnderstandingConstructsApp.AssemblyInfo.cs
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ConstructsSolution\UnderstandingConstructsApp\obj\Debug\net6.0\UnderstandingConstructsApp.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ConstructsSolution\UnderstandingConstructsApp\obj\Debug\net6.0\UnderstandingConstructsApp.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ConstructsSolution\UnderstandingConstructsApp\obj\Debug\net6.0\refint\UnderstandingConstructsApp.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ConstructsSolution\UnderstandingConstructsApp\obj\Debug\net6.0\UnderstandingConstructsApp.pdb
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ConstructsSolution\UnderstandingConstructsApp\obj\Debug\net6.0\UnderstandingConstructsApp.genruntimeconfig.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ConstructsSolution\UnderstandingConstructsApp\obj\Debug\net6.0\ref\UnderstandingConstructsApp.dll

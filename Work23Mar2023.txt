@@ -1,0 +1,20 @@
+CLR
+
+Assemblies
+  Collection 
+  Single deployable unit
+
+
+Code snippets
+
+class - > generates class
+prop -> creates a property
+ctor -> generated the default constructor
+cw -> Console.WriteLine
+
+CTRL+.=> auto code drop down
+Select generate constructor
+
+dotnet new console - from teh cmd prompt - will create a project with the foldername
+
+Interoperability -> Inter operational ability
