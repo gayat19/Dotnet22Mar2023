@@ -1,0 +1,15 @@
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\OopsSolution\UnderstandingOOPSApp\bin\Debug\net6.0\UnderstandingOOPSApp.exe
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\OopsSolution\UnderstandingOOPSApp\bin\Debug\net6.0\UnderstandingOOPSApp.deps.json
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\OopsSolution\UnderstandingOOPSApp\bin\Debug\net6.0\UnderstandingOOPSApp.runtimeconfig.json
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\OopsSolution\UnderstandingOOPSApp\bin\Debug\net6.0\UnderstandingOOPSApp.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\OopsSolution\UnderstandingOOPSApp\bin\Debug\net6.0\UnderstandingOOPSApp.pdb
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\OopsSolution\UnderstandingOOPSApp\obj\Debug\net6.0\UnderstandingOOPSApp.csproj.AssemblyReference.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\OopsSolution\UnderstandingOOPSApp\obj\Debug\net6.0\UnderstandingOOPSApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\OopsSolution\UnderstandingOOPSApp\obj\Debug\net6.0\UnderstandingOOPSApp.AssemblyInfoInputs.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\OopsSolution\UnderstandingOOPSApp\obj\Debug\net6.0\UnderstandingOOPSApp.AssemblyInfo.cs
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\OopsSolution\UnderstandingOOPSApp\obj\Debug\net6.0\UnderstandingOOPSApp.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\OopsSolution\UnderstandingOOPSApp\obj\Debug\net6.0\UnderstandingOOPSApp.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\OopsSolution\UnderstandingOOPSApp\obj\Debug\net6.0\refint\UnderstandingOOPSApp.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\OopsSolution\UnderstandingOOPSApp\obj\Debug\net6.0\UnderstandingOOPSApp.pdb
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\OopsSolution\UnderstandingOOPSApp\obj\Debug\net6.0\UnderstandingOOPSApp.genruntimeconfig.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\OopsSolution\UnderstandingOOPSApp\obj\Debug\net6.0\ref\UnderstandingOOPSApp.dll

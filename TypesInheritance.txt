@@ -1,0 +1,12 @@
+Simple/Single
+Base<-Derived
+
+Hirarcial 
+Base<-Derived1
+^
+|
+Derived
+
+
+Multi-Level Inheritance
+Base<-Derived<-Derived
