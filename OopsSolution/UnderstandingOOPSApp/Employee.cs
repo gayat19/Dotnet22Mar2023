@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UnderstandingOOPSApp
 {
-    internal class Employee
+    internal class Employee:IEmployee
     {
         internal int something;
         public int Id { get; set; }
@@ -77,6 +77,19 @@ namespace UnderstandingOOPSApp
             Age = age;
             Age++;
         }
+
+       
+
+        public void TakeEmployeeDetails()
+        {
+            throw new NotImplementedException();
+        }
+
+        void IEmployee.PrintEmployeeDetails()
+        {
+            throw new NotImplementedException();
+        }
+
         ~Employee()
         {
             

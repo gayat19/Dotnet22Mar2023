@@ -1,0 +1,15 @@
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\GenericsSolution\UnderstandingGenericsApp\bin\Debug\net6.0\UnderstandingGenericsApp.exe
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\GenericsSolution\UnderstandingGenericsApp\bin\Debug\net6.0\UnderstandingGenericsApp.deps.json
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\GenericsSolution\UnderstandingGenericsApp\bin\Debug\net6.0\UnderstandingGenericsApp.runtimeconfig.json
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\GenericsSolution\UnderstandingGenericsApp\bin\Debug\net6.0\UnderstandingGenericsApp.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\GenericsSolution\UnderstandingGenericsApp\bin\Debug\net6.0\UnderstandingGenericsApp.pdb
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\GenericsSolution\UnderstandingGenericsApp\obj\Debug\net6.0\UnderstandingGenericsApp.csproj.AssemblyReference.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\GenericsSolution\UnderstandingGenericsApp\obj\Debug\net6.0\UnderstandingGenericsApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\GenericsSolution\UnderstandingGenericsApp\obj\Debug\net6.0\UnderstandingGenericsApp.AssemblyInfoInputs.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\GenericsSolution\UnderstandingGenericsApp\obj\Debug\net6.0\UnderstandingGenericsApp.AssemblyInfo.cs
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\GenericsSolution\UnderstandingGenericsApp\obj\Debug\net6.0\UnderstandingGenericsApp.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\GenericsSolution\UnderstandingGenericsApp\obj\Debug\net6.0\UnderstandingGenericsApp.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\GenericsSolution\UnderstandingGenericsApp\obj\Debug\net6.0\refint\UnderstandingGenericsApp.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\GenericsSolution\UnderstandingGenericsApp\obj\Debug\net6.0\UnderstandingGenericsApp.pdb
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\GenericsSolution\UnderstandingGenericsApp\obj\Debug\net6.0\UnderstandingGenericsApp.genruntimeconfig.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\GenericsSolution\UnderstandingGenericsApp\obj\Debug\net6.0\ref\UnderstandingGenericsApp.dll

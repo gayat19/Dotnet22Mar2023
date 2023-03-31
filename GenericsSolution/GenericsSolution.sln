@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingGenericsApp", "UnderstandingGenericsApp\UnderstandingGenericsApp.csproj", "{3816B135-38C1-455B-83B5-82BA7944BECC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3816B135-38C1-455B-83B5-82BA7944BECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3816B135-38C1-455B-83B5-82BA7944BECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3816B135-38C1-455B-83B5-82BA7944BECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3816B135-38C1-455B-83B5-82BA7944BECC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B7E8356-ED61-423F-8BD3-F36FEC078628}
+	EndGlobalSection
+EndGlobal

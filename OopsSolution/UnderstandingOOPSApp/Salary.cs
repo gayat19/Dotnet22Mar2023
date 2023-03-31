@@ -16,9 +16,18 @@ namespace UnderstandingOOPSApp
     }
     internal class ExecutiveSalary: Salary
     {
-        internal override double CalculateSalary(double basic, double deductions)
+        internal sealed override double CalculateSalary(double basic, double deductions)
         {
             double result = basic - (basic * 10 / 100);
+            result = result - deductions;
+            return result;
+        }
+    }
+    internal class ExecutiveAdvancedSalary : Salary
+    {
+        internal override double CalculateSalary(double basic, double deductions)
+        {
+            double result = basic - (basic * 12 / 100);
             result = result - deductions;
             return result;
         }
