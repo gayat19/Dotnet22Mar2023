@@ -1,0 +1,15 @@
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\DelegateSolution\UnderstandingDelegateApp\bin\Debug\net6.0\UnderstandingDelegateApp.exe
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\DelegateSolution\UnderstandingDelegateApp\bin\Debug\net6.0\UnderstandingDelegateApp.deps.json
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\DelegateSolution\UnderstandingDelegateApp\bin\Debug\net6.0\UnderstandingDelegateApp.runtimeconfig.json
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\DelegateSolution\UnderstandingDelegateApp\bin\Debug\net6.0\UnderstandingDelegateApp.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\DelegateSolution\UnderstandingDelegateApp\bin\Debug\net6.0\UnderstandingDelegateApp.pdb
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\DelegateSolution\UnderstandingDelegateApp\obj\Debug\net6.0\UnderstandingDelegateApp.csproj.AssemblyReference.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\DelegateSolution\UnderstandingDelegateApp\obj\Debug\net6.0\UnderstandingDelegateApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\DelegateSolution\UnderstandingDelegateApp\obj\Debug\net6.0\UnderstandingDelegateApp.AssemblyInfoInputs.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\DelegateSolution\UnderstandingDelegateApp\obj\Debug\net6.0\UnderstandingDelegateApp.AssemblyInfo.cs
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\DelegateSolution\UnderstandingDelegateApp\obj\Debug\net6.0\UnderstandingDelegateApp.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\DelegateSolution\UnderstandingDelegateApp\obj\Debug\net6.0\UnderstandingDelegateApp.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\DelegateSolution\UnderstandingDelegateApp\obj\Debug\net6.0\refint\UnderstandingDelegateApp.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\DelegateSolution\UnderstandingDelegateApp\obj\Debug\net6.0\UnderstandingDelegateApp.pdb
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\DelegateSolution\UnderstandingDelegateApp\obj\Debug\net6.0\UnderstandingDelegateApp.genruntimeconfig.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\DelegateSolution\UnderstandingDelegateApp\obj\Debug\net6.0\ref\UnderstandingDelegateApp.dll
