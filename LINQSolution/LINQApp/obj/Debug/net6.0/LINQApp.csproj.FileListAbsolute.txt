@@ -1,0 +1,15 @@
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\LINQSolution\LINQApp\bin\Debug\net6.0\LINQApp.exe
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\LINQSolution\LINQApp\bin\Debug\net6.0\LINQApp.deps.json
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\LINQSolution\LINQApp\bin\Debug\net6.0\LINQApp.runtimeconfig.json
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\LINQSolution\LINQApp\bin\Debug\net6.0\LINQApp.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\LINQSolution\LINQApp\bin\Debug\net6.0\LINQApp.pdb
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\LINQSolution\LINQApp\obj\Debug\net6.0\LINQApp.csproj.AssemblyReference.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\LINQSolution\LINQApp\obj\Debug\net6.0\LINQApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\LINQSolution\LINQApp\obj\Debug\net6.0\LINQApp.AssemblyInfoInputs.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\LINQSolution\LINQApp\obj\Debug\net6.0\LINQApp.AssemblyInfo.cs
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\LINQSolution\LINQApp\obj\Debug\net6.0\LINQApp.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\LINQSolution\LINQApp\obj\Debug\net6.0\LINQApp.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\LINQSolution\LINQApp\obj\Debug\net6.0\refint\LINQApp.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\LINQSolution\LINQApp\obj\Debug\net6.0\LINQApp.pdb
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\LINQSolution\LINQApp\obj\Debug\net6.0\LINQApp.genruntimeconfig.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\LINQSolution\LINQApp\obj\Debug\net6.0\ref\LINQApp.dll
