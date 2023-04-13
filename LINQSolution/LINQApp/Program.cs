@@ -35,7 +35,8 @@
 
         static void Main(string[] args)
         {
-            var myProducts = products.OrderByDescending(p => p.CategoryId).Take(2);
+            var myProducts = from prod in products orderby prod.CategoryId descending select prod;
+            //var myProducts = products.OrderByDescending(p => p.CategoryId).Take(2);
             foreach (var item in myProducts)
             {
                 Console.WriteLine(item.Name+" "+item.CategoryId);

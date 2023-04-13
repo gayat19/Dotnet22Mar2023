@@ -1,0 +1,508 @@
+namespace ExceptionHandlingApp
+{
+   
+    internal class Program
+    {
+        int num1, num2;
+
+        void TakeNumbers()
+        {
+            try
+            {
+                Console.WriteLine("Please enter the first number");
+                num1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Please enter the first number");
+                num2 = Convert.ToInt32(Console.ReadLine());
+            }
+            catch (FormatException fe)
+            {
+                Console.WriteLine("The input string was not in the proper format. You have to enter a whole number");
+                Console.WriteLine(fe.Message);
+            }
+            catch (OverflowException oe)
+            {
+                Console.WriteLine("Too big number");
+            }
+            catch (Exception e)//General Exception
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+        void Add()
+        {
+            int sum = 0;
+            sum = num1 + num2;
+            Console.WriteLine("The sum is "+sum);
+        }
+        void Product()
+        {
+            int product = 0;
+            product = num1 * num2;
+            Console.WriteLine("The product is " + product);
+        }
+        static void Main(string[] args)
+        {
+            Program program = new Program();
+            program.TakeNumbers();
+            program.Product();
+            program.Add();
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
+
+-----------------------------------------------------------------------------------------------
+
+namespace ExceptionHandlingApp
+{
+   
+    internal class Program
+    {
+        int num1, num2;
+
+        void TakeNumbers()
+        {
+            Console.WriteLine("Please enter the first number");
+            num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter the first number");
+            num2 = Convert.ToInt32(Console.ReadLine());
+        }
+        void Add()
+        {
+            int sum = 0;
+            sum = num1 + num2;
+            Console.WriteLine("The sum is "+sum);
+        }
+        void Product()
+        {
+            int product = 0;
+            product = num1 * num2;
+            Console.WriteLine("The product is " + product);
+        }
+        static void Main(string[] args)
+        {
+            try
+            {
+                Program program = new Program();
+                program.TakeNumbers();
+                program.Product();
+                program.Add();
+            }
+            catch (FormatException fe)
+            {
+                Console.WriteLine("The input string was not in the proper format. You have to enter a whole number");
+                Console.WriteLine(fe.Message);
+            }
+            catch (OverflowException oe)
+            {
+                Console.WriteLine("Too big number");
+            }
+            catch (Exception e)//General Exception
+            {
+                Console.WriteLine(e.Message);
+            }
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
+---------------------------------------------------------------------------------
+namespace ExceptionHandlingApp
+{
+   
+    internal class Program
+    {
+        int num1, num2;
+
+        void TakeNumbers()
+        {
+            Console.WriteLine("Please enter the first number");
+            num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter the first number");
+            num2 = Convert.ToInt32(Console.ReadLine());
+        }
+        void Add()
+        {
+            int sum = 0;
+            sum = num1 + num2;
+            Console.WriteLine("The sum is "+sum);
+        }
+        void Product()
+        {
+            int product = 0;
+            product = num1 * num2;
+            Console.WriteLine("The product is " + product);
+        }
+        void Divide()
+        {
+            int result = 0;
+            result = num1 / num2;
+            Console.WriteLine("The result is " + result);
+        }
+        static void Main(string[] args)
+        {
+            try
+            {
+                Program program = new Program();
+                program.TakeNumbers();
+                program.Product();
+                try
+                {
+                    program.Divide();
+                }
+                catch (DivideByZeroException dbze)
+                {
+                    Console.WriteLine("The denominator is zero so unable to complete division");
+                }
+                program.Add();
+            }
+            catch (FormatException fe)
+            {
+                Console.WriteLine("The input string was not in the proper format. You have to enter a whole number");
+                Console.WriteLine(fe.Message);
+            }
+            catch (OverflowException oe)
+            {
+                Console.WriteLine("Too big number");
+            }
+            catch (Exception e)//General Exception
+            {
+                Console.WriteLine(e.Message);
+            }
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
+---------------------------------------------------------------------------------------
+namespace ExceptionHandlingApp
+{
+   
+    internal class Program
+    {
+        int num1, num2;
+
+        void TakeNumbers()
+        {
+            Console.WriteLine("Please enter the first number");
+            num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter the first number");
+            num2 = Convert.ToInt32(Console.ReadLine());
+        }
+        void Add()
+        {
+            int sum = 0;
+            sum = num1 + num2;
+            Console.WriteLine("The sum is "+sum);
+        }
+        void Product()
+        {
+            int product = 0;
+            product = num1 * num2;
+            Console.WriteLine("The product is " + product);
+        }
+        string ReturnData(int num)
+        {
+            string result = "The result is ";
+            if(num<5)
+                throw new MyNUmberExceptioncs();
+            num = num * num;
+            result += num;
+            return result;
+        }
+        void Divide()
+        {
+            int result = 0;
+            result = num1 / num2;
+            Console.WriteLine("The result is " + result);
+        }
+        static void Main(string[] args)
+        {
+            try
+            {
+                Program program = new Program();
+                program.TakeNumbers();
+                program.Product();
+                try
+                {
+                    program.Divide();
+                }
+                catch (DivideByZeroException dbze)
+                {
+                    Console.WriteLine("The denominator is zero so unable to complete division");
+                }
+                program.Add();
+                string res = program.ReturnData(program.num1);
+                Console.WriteLine(res);
+            }
+            catch (FormatException fe)
+            {
+                Console.WriteLine("The input string was not in the proper format. You have to enter a whole number");
+                Console.WriteLine(fe.Message);
+            }
+            catch (OverflowException oe)
+            {
+                Console.WriteLine("Too big number");
+            }
+            catch(MyNUmberExceptioncs mne)
+            {
+                Console.WriteLine("The number is invalid");
+            }
+            catch (Exception e)//General Exception
+            {
+                Console.WriteLine(e.Message);
+            }
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ExceptionHandlingApp
+{
+    public class MyNUmberExceptioncs:Exception
+    {
+        string msg;
+        public MyNUmberExceptioncs()
+        {
+            msg = "Thenumber has to greater than 5";
+        }
+        public override string Message => msg;
+    }
+}
+-------------------------------------------------------------------------------------------
+namespace ExceptionHandlingApp
+{
+   
+    internal class Program
+    {
+        int num1, num2;
+
+        void TakeNumbers()
+        {
+            Console.WriteLine("Please enter the first number");
+            //num1 = Convert.ToInt32(Console.ReadLine());
+            while(Int32.TryParse(Console.ReadLine(), out num1) == false)
+            {
+                Console.WriteLine("Unable to convert. Please try again");
+            }
+            Console.WriteLine("Please enter the second number");
+            num2 = Convert.ToInt32(Console.ReadLine());
+        }
+        void Add()
+        {
+            int sum = 0;
+            sum = num1 + num2;
+            Console.WriteLine("The sum is "+sum);
+        }
+        void Product()
+        {
+            int product = 0;
+            product = num1 * num2;
+            Console.WriteLine("The product is " + product);
+        }
+        string ReturnData(int num)
+        {
+            string result = "The result is ";
+            if(num<5)
+                throw new MyNUmberExceptioncs();
+            num = num * num;
+            result += num;
+            return result;
+        }
+        void Divide()
+        {
+            int result = 0;
+            result = num1 / num2;
+            Console.WriteLine("The result is " + result);
+        }
+        static void Main(string[] args)
+        {
+            Program program = new Program();
+            program.TakeNumbers();
+            program.Product();
+            program.Add();
+        }
+    }
+}
+---------------------------------------------------------------------------------------
+namespace ExceptionHandlingApp
+{
+   
+    internal class Program
+    {
+        int num1, num2;
+
+        void TakeNumbers()
+        {
+            Console.WriteLine("Please enter the first number");
+            //num1 = Convert.ToInt32(Console.ReadLine());
+            while(Int32.TryParse(Console.ReadLine(), out num1) == false)
+            {
+                Console.WriteLine("Unable to convert. Please try again");
+            }
+            Console.WriteLine("Please enter the second number");
+            num2 = Convert.ToInt32(Console.ReadLine());
+        }
+        void UnderstandCheckBlock()
+        {
+            checked
+            {
+                int num = int.MaxValue;
+                Console.WriteLine(num);
+                Console.WriteLine("After increment");
+                num++;
+                Console.WriteLine(num);
+            }
+        }
+        void UnderstandNull()
+        {
+            int? num = 4;
+            int result = (num??1) * 10;//if num is null then use 1 instead. If num has value then use teh value
+            Console.WriteLine(result);
+        }
+        void Add()
+        {
+            int sum = 0;
+            sum = num1 + num2;
+            Console.WriteLine("The sum is "+sum);
+        }
+        void Product()
+        {
+            int product = 0;
+            product = num1 * num2;
+            Console.WriteLine("The product is " + product);
+        }
+        string ReturnData(int num)
+        {
+            string result = "The result is ";
+            if(num<5)
+                throw new MyNUmberExceptioncs();
+            num = num * num;
+            result += num;
+            return result;
+        }
+        void Divide()
+        {
+            int result = 0;
+            result = num1 / num2;
+            Console.WriteLine("The result is " + result);
+        }
+        public record Employee ( string FirstName,string LastName);
+        void UnderstandingRecord()
+        {
+            Employee e1 = new Employee("Ramu", "R");
+            Console.WriteLine(e1);
+        }
+        static void Main(string[] args)
+        {
+            Program program = new Program();
+            program.UnderstandingRecord();
+        }
+    }
+}
+
+namespace ExceptionHandlingApp
+{
+   
+    internal class Program
+    {
+        int num1, num2;
+
+        void TakeNumbers()
+        {
+            Console.WriteLine("Please enter the first number");
+            //num1 = Convert.ToInt32(Console.ReadLine());
+            while(Int32.TryParse(Console.ReadLine(), out num1) == false)
+            {
+                Console.WriteLine("Unable to convert. Please try again");
+            }
+            Console.WriteLine("Please enter the second number");
+            num2 = Convert.ToInt32(Console.ReadLine());
+        }
+        void UnderstandCheckBlock()
+        {
+            checked
+            {
+                int num = int.MaxValue;
+                Console.WriteLine(num);
+                Console.WriteLine("After increment");
+                num++;
+                Console.WriteLine(num);
+            }
+        }
+        void UnderstandNull()
+        {
+            int? num = 4;
+            int result = (num??1) * 10;//if num is null then use 1 instead. If num has value then use teh value
+            Console.WriteLine(result);
+        }
+        void Add()
+        {
+            int sum = 0;
+            sum = num1 + num2;
+            Console.WriteLine("The sum is "+sum);
+        }
+        void Product()
+        {
+            int product = 0;
+            product = num1 * num2;
+            Console.WriteLine("The product is " + product);
+        }
+        string ReturnData(int num)
+        {
+            string result = "The result is ";
+            if(num<5)
+                throw new MyNUmberExceptioncs();
+            num = num * num;
+            result += num;
+            return result;
+        }
+        void Divide()
+        {
+            int result = 0;
+            result = num1 / num2;
+            Console.WriteLine("The result is " + result);
+        }
+        public record Employee ( string FirstName,string LastName);
+        
+        void UnderstandingRecord()
+        {
+            Employee e1 = new Employee("Ramu", "R");
+            Console.WriteLine(e1);
+        }
+        void UnderstandingTuple()
+        {
+            Tuple<int, string> myTuple = new Tuple<int, string>(101, "Ramu");
+            Console.WriteLine(myTuple.Item1);
+        }
+        static void Main(string[] args)
+        {
+            Program program = new Program();
+            program.UnderstandingTuple();
+        }
+    }
+}
+
+using System.Net.Cache;
+
+namespace ExceptionHandlingApp
+{
+
+
+    internal class Program
+    {
+       void UnderstadDeconstruction()
+        {
+            var myData = (Name: "Ramu", Age: 23, Gender: "M", Salary: 2343.5);
+            var (username, age,_,_) = myData;
+            Console.WriteLine(username);
+        }
+        static void Main(string[] args)
+        {
+           new Program().UnderstadDeconstruction();
+        }
+    }
+}

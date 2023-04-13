@@ -1,0 +1,15 @@
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ExceptionSolution\ExceptionHandlingApp\obj\Debug\net6.0\ExceptionHandlingApp.csproj.AssemblyReference.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ExceptionSolution\ExceptionHandlingApp\obj\Debug\net6.0\ExceptionHandlingApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ExceptionSolution\ExceptionHandlingApp\obj\Debug\net6.0\ExceptionHandlingApp.AssemblyInfoInputs.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ExceptionSolution\ExceptionHandlingApp\obj\Debug\net6.0\ExceptionHandlingApp.AssemblyInfo.cs
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ExceptionSolution\ExceptionHandlingApp\obj\Debug\net6.0\ExceptionHandlingApp.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ExceptionSolution\ExceptionHandlingApp\bin\Debug\net6.0\ExceptionHandlingApp.exe
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ExceptionSolution\ExceptionHandlingApp\bin\Debug\net6.0\ExceptionHandlingApp.deps.json
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ExceptionSolution\ExceptionHandlingApp\bin\Debug\net6.0\ExceptionHandlingApp.runtimeconfig.json
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ExceptionSolution\ExceptionHandlingApp\bin\Debug\net6.0\ExceptionHandlingApp.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ExceptionSolution\ExceptionHandlingApp\bin\Debug\net6.0\ExceptionHandlingApp.pdb
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ExceptionSolution\ExceptionHandlingApp\obj\Debug\net6.0\ExceptionHandlingApp.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ExceptionSolution\ExceptionHandlingApp\obj\Debug\net6.0\refint\ExceptionHandlingApp.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ExceptionSolution\ExceptionHandlingApp\obj\Debug\net6.0\ExceptionHandlingApp.pdb
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ExceptionSolution\ExceptionHandlingApp\obj\Debug\net6.0\ExceptionHandlingApp.genruntimeconfig.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\ExceptionSolution\ExceptionHandlingApp\obj\Debug\net6.0\ref\ExceptionHandlingApp.dll
