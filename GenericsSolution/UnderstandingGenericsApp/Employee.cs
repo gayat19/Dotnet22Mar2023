@@ -10,7 +10,7 @@ namespace UnderstandingGenericsApp
     {
         public int Id{ get; set; }
         public int Age { get; set; }
-        public string Name { get; set; }
+        public string? Name { get; set; }
         public Employee()
         {
             
@@ -42,7 +42,7 @@ namespace UnderstandingGenericsApp
         {
             Employee e1, e2;
             e1 = this;
-            e2 = other;
+            e2 = other==null?new Employee():other;
             return 0-(e1.Age.CompareTo(e2.Age));
         }
 

@@ -1,0 +1,72 @@
+namespace ThreadingExampleApp
+{
+    internal class Program
+    {
+        void Add()
+        {
+            Console.WriteLine("Add start");
+          
+            int sum = 0;
+            for (int i = 0; i < 10; i++)
+            {
+                Thread.Sleep(1000);
+                Console.WriteLine(i);
+                sum += i;
+            }
+            Console.WriteLine(sum);
+            
+        }
+        void Product()
+        {
+           
+            double result = 1;
+            Console.WriteLine("Start of Product");
+            for (int i = 10; i < 100; i=i+10)
+            {
+                Thread.Sleep(1000);
+                Console.WriteLine(i);
+                result *= i;
+            }
+            Console.WriteLine(result);
+        }
+
+        void PrintData()
+        {
+            lock (this)
+            {
+                for (int i = 0; i < 10; i++)
+                {
+                    Thread.Sleep(1000);
+                    Console.WriteLine(Thread.CurrentThread.Name + " " + i);
+                }
+            }
+        }
+         int GetNumber()
+        {
+            int number = new Random().Next(0, 100);
+            Thread.Sleep(1000);
+            return number;
+        }
+        void PrintNumber()
+        {
+
+        }
+        static void Main(string[] args)
+        {
+            Program program = new Program();
+            //Thread t1 = new Thread(program.Add);
+            //Thread t2 = new Thread(program.Product);
+            //t1.Start();
+            //t2.Start();
+            //program.Add();
+            //program.Product();
+            Thread t1 = new Thread(program.PrintData);
+            Thread t2 = new Thread(program.PrintData);
+            t1.Name = "T1";
+            t2.Name = "T2";
+            t1.Start();
+            t2.Start();
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}

@@ -1,0 +1,15 @@
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\FileSolution\FileAppliaction\bin\Debug\net6.0\FileAppliaction.exe
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\FileSolution\FileAppliaction\bin\Debug\net6.0\FileAppliaction.deps.json
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\FileSolution\FileAppliaction\bin\Debug\net6.0\FileAppliaction.runtimeconfig.json
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\FileSolution\FileAppliaction\bin\Debug\net6.0\FileAppliaction.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\FileSolution\FileAppliaction\bin\Debug\net6.0\FileAppliaction.pdb
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\FileSolution\FileAppliaction\obj\Debug\net6.0\FileAppliaction.csproj.AssemblyReference.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\FileSolution\FileAppliaction\obj\Debug\net6.0\FileAppliaction.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\FileSolution\FileAppliaction\obj\Debug\net6.0\FileAppliaction.AssemblyInfoInputs.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\FileSolution\FileAppliaction\obj\Debug\net6.0\FileAppliaction.AssemblyInfo.cs
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\FileSolution\FileAppliaction\obj\Debug\net6.0\FileAppliaction.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\FileSolution\FileAppliaction\obj\Debug\net6.0\FileAppliaction.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\FileSolution\FileAppliaction\obj\Debug\net6.0\refint\FileAppliaction.dll
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\FileSolution\FileAppliaction\obj\Debug\net6.0\FileAppliaction.pdb
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\FileSolution\FileAppliaction\obj\Debug\net6.0\FileAppliaction.genruntimeconfig.cache
+D:\Data\d drive\Corp\L&TEdu\Mindtree\DotnetApplications\FileSolution\FileAppliaction\obj\Debug\net6.0\ref\FileAppliaction.dll

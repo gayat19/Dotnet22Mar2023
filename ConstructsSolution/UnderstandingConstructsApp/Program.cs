@@ -4,8 +4,6 @@ namespace UnderstandingConstructsApp
 {
     internal class Program
     {
-
-
         void UnderstandingFor()
         {
             for (int i = 0; i < 10; i++)

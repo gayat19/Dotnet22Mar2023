@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wzZVi6R13yVxFZS+KZJRZdgXXmObaFEf/2f8KxhDPB6rVxQhoGPMZTsacMflPo4VUwPElW+wmv6SJRFVm+a2WQ==",
+  "success": true,
+  "projectFilePath": "D:\\Data\\d drive\\Corp\\L&TEdu\\Mindtree\\DotnetApplications\\FileSolution\\FileAppliaction\\FileAppliaction.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gayat\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

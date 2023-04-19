@@ -6,6 +6,9 @@ namespace ExceptionHandlingApp
 
     internal class Program
     {
+        /// <summary>
+        /// 
+        /// </summary>
        void UnderstadDeconstruction()
         {
             var myData = (Name: "Ramu", Age: 23, Gender: "M", Salary: 2343.5);

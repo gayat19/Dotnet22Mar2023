@@ -87,7 +87,6 @@
             }
             else
                 Console.WriteLine("Notthe same");
-
         }
         void UnderstandingSortedList()
         {
