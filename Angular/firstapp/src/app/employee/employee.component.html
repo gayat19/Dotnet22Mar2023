@@ -1,0 +1,30 @@
+<div>
+    <h2>Employee Data</h2>
+    <div>
+        <h2>Interpollation</h2>
+        <!-- Interpollation is bringing data from ts/Component to html/template -->
+        Employee Name : {{username}}
+        <br>
+        {{10+10*10}}
+    </div>
+    <div>
+        <h2>Property Binding</h2>
+        <!-- IProperty binding is bringing data from ts/Component to html/template as a value for a property-->
+        Employee Name : <input type="text" [value]="username">
+    </div>
+    <div>
+        <h2>Event Binding</h2>
+        <!-- Event Binding - sending data from template to component -->
+        Fav status:  <span [class]="className" (click)="changeLook()"></span>
+    </div>
+    <div>
+        <h2>Two-Way Binding - the long way</h2>
+        Enter your name:<input type="text" [value]="username" #un (change)="changeName(un.value)">
+    </div>
+    <div>
+        <h2>Two-Way Binding</h2>
+        <!-- Two-Way binding- Component to template and template to componenet -->
+        Enter your name:<input type="text" [(ngModel)]="username">
+       
+    </div>
+</div>

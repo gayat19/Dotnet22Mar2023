@@ -1,0 +1,138 @@
+MEAN - Mongo-Express-Angular-Node
+
+Angular-Node
+Component
+   typescript - logic -ts
+   template - view - htm/html
+   CSS - style - css
+   karma - testing - spec
+
+ng generate component first
+ng g c first
+ng g c employee
+
+
+
+
+ng --version 
+ng new firstapp (creates a new angular application)
+cd firstapp (navigate inside the folder)
+ng serve (Starting the server)
+
+npm install --global typescript(install typescript)
+tsc <filename.ts>
+node <filename.js>
+
+npm install
+
+
+ng g c <component name>
+<div>
+    <h2>Employee Data</h2>
+    <div>
+        <h2>Interpollation</h2>
+        <!-- Interpollation is bringing data from ts/Component to html/template -->
+        Employee Name : {{username}}
+        <br>
+        {{10+10*10}}
+    </div>
+    <div>
+        <h2>Property Binding</h2>
+        <!-- IProperty binding is bringing data from ts/Component to html/template as a value for a property-->
+        Employee Name : <input type="text" [value]="username">
+    </div>
+    <div>
+        <h2>Event Binding</h2>
+        <!-- Event Binding - sending data from template to component -->
+        Fav status:  <span [class]="className" (click)="changeLook()"></span>
+    </div>
+    <div>
+        <h2>Two-Way Binding - the long way</h2>
+        Enter your name:<input type="text" [value]="username" #un (change)="changeName(un.value)">
+    </div>
+    <div>
+        <h2>Two-Way Binding</h2>
+        <!-- Two-Way binding- Component to template and template to componenet -->
+        Enter your name:<input type="text" [(ngModel)]="username">
+       
+    </div>
+</div>
+
+
+
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-employee',
+  templateUrl: './employee.component.html',
+  styleUrls: ['./employee.component.css']
+})
+export class EmployeeComponent implements OnInit {
+
+  username:string="";
+  className:string;
+  likeStatus:boolean = false;
+  constructor() { 
+    this.username = "ABC";
+    this.className = "glyphicon glyphicon-heart-empty"
+  }
+  changeLook(){
+    console.log("Clicked the heart")
+    this.likeStatus = !this.likeStatus;
+    // if(this.likeStatus)
+    //   this.className = "glyphicon glyphicon-heart";
+    // else
+    // this.className = "glyphicon glyphicon-heart-empty"
+    this.likeStatus?this.className = "glyphicon glyphicon-heart":this.className = "glyphicon glyphicon-heart-empty";
+  }
+  changeName(un:any){
+    this.username = un;
+  }
+  ngOnInit(): void {
+  }
+
+}
+
+
+
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { FirstComponent } from './first/first.component';
+import { EmployeeComponent } from './employee/employee.component';
+import { FormsModule } from '@angular/forms';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    FirstComponent,
+    EmployeeComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Firstapp</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>

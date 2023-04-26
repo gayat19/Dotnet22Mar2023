@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        alert("Hello");
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+-----------------
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function pop() {
+            alert("Hello");
+        }
+    </script>
+</head>
+<body>
+    <button onclick="pop()">Click me to see the msg</button>
+</body>
+</html>
+----------------------
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function pop() {
+            var username = document.getElementById("txtName").value
+            alert("Hello "+username);
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="txtName" />
+    <button onclick="pop()">Click me to see the msg</button>
+
+</body>
+</html>
+-----------------------------
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label>Username</label></td>
+                <td><input type="text" id="txtName" /></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td><input type="password" id="txtPassword" /></td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="Cancel" /></td>
+                <td><input type="submit" onclick="checkLogin()" value="Login" /></td>
+            </tr>
+        </table>
+        <script>
+            function checkLogin() {
+                var username = document.getElementById("txtName").value;
+                var password = document.getElementById("txtPassword").value;
+                if (username == "ramu" && password == "1234")
+                    alert("Welcome")
+                else
+                    alert("Invalid username or password")
+            }
+        </script>
+    </form>
+    <div id="divMessage">
+
+    </div>
+</body>
+</html>
+--------------------------
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #divMessage{
+            background-color:aquamarine;
+            height:300px;
+            width:300px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label>Username</label></td>
+                <td><input type="text" id="txtName" /></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td><input type="password" id="txtPassword" /></td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="Cancel" /></td>
+                <td><input type="submit" onclick="checkLogin()" value="Login" /></td>
+            </tr>
+        </table>
+        <script>
+            function checkLogin() {
+                event.preventDefault();
+                var username = document.getElementById("txtName").value;
+                var password = document.getElementById("txtPassword").value;
+                var myDiv = document.getElementById("divMessage");
+                if (username == "ramu" && password == "1234")
+                {
+                    myDiv.innerHTML = "Welcome";
+                }
+                    /*alert("Welcome")*/
+                else
+                    alert("Invalid username or password")
+            }
+        </script>
+    </form>
+    <div id="divMessage">
+
+    </div>
+</body>
+</html>
+-----------------------------------------
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #divMessage{
+            /*background-color:aquamarine;*/
+            height:300px;
+            width:300px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label>Username</label></td>
+                <td><input type="text" id="txtName" /></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td><input type="password" id="txtPassword" /></td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="Cancel" /></td>
+                <td><input type="submit" onclick="checkLogin()" value="Login" /></td>
+            </tr>
+        </table>
+        <script>
+            function checkLogin() {
+                event.preventDefault();
+                var username = document.getElementById("txtName").value;
+                var password = document.getElementById("txtPassword").value;
+                var myDiv = document.getElementById("divMessage");
+                if (username == "ramu" && password == "1234") {
+                    myDiv.innerHTML = "Welcome";
+                    myDiv.style.backgroundColor = "lightgreen";
+                }
+                /*alert("Welcome")*/
+                else {
+                    myDiv.innerHTML = "Invalid username or password";
+                    myDiv.style.backgroundColor = "lightpink";
+                }
+            }
+        </script>
+    </form>
+    <div id="divMessage">
+
+    </div>
+</body>
+</html>
+---------------------------------
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #divMessage{
+            /*background-color:aquamarine;*/
+            height:300px;
+            width:300px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label>Username</label></td>
+                <td>
+                    <input type="text" id="txtName" onblur="checkUN()" />
+                    <span id="msgUN">
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td>
+                    <input type="password" id="txtPassword" />
+                    <span id="msgPass"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="Cancel" /></td>
+                <td><input type="submit" onclick="checkLogin()" value="Login" /></td>
+            </tr>
+        </table>
+        <script>
+            function checkUN() {
+                var username = document.getElementById("txtName").value;
+                if (username == "")
+                    document.getElementById("msgUN").innerHTML = "Username cannot be empty";
+                else
+                    document.getElementById("msgUN").innerHTML = "Good work!!!";
+            }
+            function checkLogin() {
+                event.preventDefault();
+                var username = document.getElementById("txtName").value;
+                var password = document.getElementById("txtPassword").value;
+                var myDiv = document.getElementById("divMessage");
+                if (username == "ramu" && password == "1234") {
+                    myDiv.innerHTML = "Welcome";
+                    myDiv.style.backgroundColor = "lightgreen";
+                }
+                /*alert("Welcome")*/
+                else {
+                    myDiv.innerHTML = "Invalid username or password";
+                    myDiv.style.backgroundColor = "lightpink";
+                }
+            }
+        </script>
+    </form>
+    <div id="divMessage">
+
+    </div>
+</body>
+</html>
+------------------------------------------------------
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #divMessage{
+            /*background-color:aquamarine;*/
+            height:300px;
+            width:300px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label>Username</label></td>
+                <td>
+                    <input type="text" id="txtName" onblur="checkUN()" />
+                    <span id="msgUN">
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td>
+                    <input type="password" id="txtPassword" onblur="checkPassword()" />
+                    <span id="msgPass"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="Cancel" /></td>
+                <td><input type="submit" onclick="checkLogin()" value="Login" /></td>
+            </tr>
+        </table>
+        <script>
+            function checkPassword() {
+                var passwordField = document.getElementById('txtPassword');
+                if (passwordField.value === '') {
+                    document.getElementById("msgPass").innerHTML = "password cannot be empty";
+                } else {
+                    document.getElementById("msgPass").innerHTML = "Good work!!!";
+                }
+            }
+            function checkUN() {
+                var username = document.getElementById("txtName").value;
+                if (username == "")
+                    document.getElementById("msgUN").innerHTML = "Username cannot be empty";
+                else
+                    document.getElementById("msgUN").innerHTML = "Good work!!!";
+            }
+            function checkLogin() {
+                event.preventDefault();
+                var username = document.getElementById("txtName").value;
+                var password = document.getElementById("txtPassword").value;
+                var myDiv = document.getElementById("divMessage");
+                if (username == "ramu" && password == "1234") {
+                    myDiv.innerHTML = "Welcome";
+                    myDiv.style.backgroundColor = "lightgreen";
+                }
+                /*alert("Welcome")*/
+                else {
+                    myDiv.innerHTML = "Invalid username or password";
+                    myDiv.style.backgroundColor = "lightpink";
+                }
+            }
+        </script>
+    </form>
+    <div id="divMessage">
+
+    </div>
+</body>
+</html>
+--------------------------------
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #divMessage{
+            /*background-color:aquamarine;*/
+            height:300px;
+            width:300px;
+        }
+        .invalid{
+            color:orangered;
+            font-size:2em;
+        }
+        .valid {
+            color: darkolivegreen;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label>Username</label></td>
+                <td>
+                    <input type="text" id="txtName" onblur="checkUN()" />
+                    <span id="msgUN">
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td>
+                    <input type="password" id="txtPassword" onblur="checkPassword()" />
+                    <span id="msgPass"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="Cancel" /></td>
+                <td><input type="submit" onclick="checkLogin()" value="Login" /></td>
+            </tr>
+        </table>
+        <script>
+            function checkPassword() {
+                var passwordField = document.getElementById('txtPassword');
+                if (passwordField.value === '') {
+                    document.getElementById("msgPass").innerHTML = "password cannot be empty";
+                    document.getElementById("msgPass").classList.add("invalid");
+                } else {
+                    document.getElementById("msgPass").innerHTML = "Good work!!!";
+                    document.getElementById("msgPass").classList.remove("invalid");
+                    document.getElementById("msgPass").classList.add("valid");
+                }
+            }
+            function checkUN() {
+                var username = document.getElementById("txtName").value;
+                if (username == "")
+                {
+                    document.getElementById("msgUN").innerHTML = "Username cannot be empty";
+                    document.getElementById("msgUN").classList.add("invalid");
+                }
+                else
+                {
+                    document.getElementById("msgUN").innerHTML = "Good work!!!";
+                    document.getElementById("msgUN").classList.remove("invalid");
+                    document.getElementById("msgUN").classList.add("valid");
+                }
+            }
+            function checkLogin() {
+                event.preventDefault();
+                var username = document.getElementById("txtName").value;
+                var password = document.getElementById("txtPassword").value;
+                var myDiv = document.getElementById("divMessage");
+                if (username == "ramu" && password == "1234") {
+                    myDiv.innerHTML = "Welcome";
+                    myDiv.style.backgroundColor = "lightgreen";
+                }
+                /*alert("Welcome")*/
+                else {
+                    myDiv.innerHTML = "Invalid username or password";
+                    myDiv.style.backgroundColor = "lightpink";
+                }
+            }
+        </script>
+    </form>
+    <div id="divMessage">
+
+    </div>
+</body>
+</html>
+-------------------------------
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Script1.js"></script>
+</head>
+<body>
+    <button onclick="addRow()">
+        Add row
+    </button>
+</body>
+</html>
+// JavaScript source code
+function addRow() {
+    alert("Row added")
+}
+-------------------------------------
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Script1.js"></script>
+</head>
+<body>
+    <button onclick="addEvent()">
+        Add event
+    </button>
+    <button id="btnAdd">
+        Check event Add
+    </button>
+</body>
+</html>
+// JavaScript source code
+let addRow =  ()=> alert("Row added"); 
+function addEvent() {
+    document.getElementById("btnAdd").addEventListener("click", addRow);
+}
+
+
+// JavaScript source code
+let addRow =  ()=> alert("Row added"); 
+function addEvent() {
+    document.getElementById("btnAdd").addEventListener("click", addRow);
+}
+function understandObject() {
+    var user = {
+        username: "",
+        password: ""
+    };
+    user.username = "Ramu";
+    user.password = "1234";
+    user.role = "Admin"
+    console.log(user);
+    document.getElementById("divContent").innerHTML = "Welcome " + user.username+" your role is "+user.role;
+}
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Script1.js"></script>
+</head>
+<body>
+    <button onclick="understandObject()">
+        Add event
+    </button>
+    <button id="btnAdd">
+        Check event Add
+    </button>
+    <div id="divContent">
+
+    </div>
+</body>
+</html>
